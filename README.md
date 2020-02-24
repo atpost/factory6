@@ -15,8 +15,24 @@ This code has been developed and tested under ruby 2.0.0p247. As long as you hav
 ## Running the Simulation
 1. `cd this/project/directory`
 2. `ruby factory.rb` or `ruby factory_multi3.rb`
+   
+`opuput(as of Feb/24, 2020)`
+    
+`[Running]` ruby "f:\git\pg\factory6\factory.rb"
+'ruby'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
+��ġ ������ �ƴմϴ�.
+
+`[Done]` exited with code=1 in 0.041 seconds'
+
 
 ## Running the Tests
 
 1. `ruby test/run_all.rb`
 
+`opuput(as of Feb/24, 2020)`
+
+`[Running]` ruby "f:\git\pg\factory6\test\run_all.rb"
+'ruby'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
+��ġ ������ �ƴմϴ�.
+
+`[Done]` exited with code=1 in 0.042 seconds
