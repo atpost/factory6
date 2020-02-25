@@ -15,7 +15,30 @@ This code has been developed and tested under ruby 2.0.0p247. As long as you hav
 ## Running the Simulation
 1. `cd this/project/directory`
 2. `ruby factory.rb` or `ruby factory_multi3.rb`
-   
+
+`opuput(as of Feb/25, 2020) ok after installing ruby`
+
+`[Running]` ruby "f:\git\pg\factory6\factory.rb"
+
+
+This game simulates a single factory with multiple workstations. 
+
+In a given day the work can process through every workstation, 
+
+and each station can do from one to six pieces of work. 
+
+Of course, if station one processes five pieces of work on day one, 
+
+station two can only process, at maximum, five, 
+
+because it only has five pieces available to 'pull.' 
+
+Experiment with different values to see how the factory operates.
+
+How many days? 
+
+--
+
 `opuput(as of Feb/24, 2020)`
     
 `[Running]` ruby "f:\git\pg\factory6\factory.rb"
@@ -28,6 +51,23 @@ This code has been developed and tested under ruby 2.0.0p247. As long as you hav
 ## Running the Tests
 
 1. `ruby test/run_all.rb`
+
+`opuput(as of Feb/25, 2020) ok after installing ruby`
+
+`[Running]` ruby "f:\git\pg\factory6\test\run_all.rb"
+Run options: --seed 15661
+
+`Running:`
+
+..
+
+Finished in 0.492652s, 4.0597 runs/s, 8.1193 assertions/s.
+
+2 runs, 4 assertions, 0 failures, 0 errors, 0 skips
+
+`[Done]` exited with code=0 in 1.157 seconds
+
+--
 
 `opuput(as of Feb/24, 2020)`
 

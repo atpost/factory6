@@ -6,7 +6,13 @@ require_relative 'lib/factory_sim.rb'
 #            Main Routine             #
 #-------------------------------------#
 
-puts "\n\nThis game simulates a single factory with multiple workstations. In a given day the work can process through every workstation, and each station can do from one to six pieces of work. Of course, if station one processes five pieces of work on day one, station two can only process, at maximum, five, because it only has five pieces available to 'pull.' Experiment with different values to see how the factory operates.\n\n"
+puts "\n\nThis game simulates a single factory with multiple workstations. \n
+In a given day the work can process through every workstation, \n
+and each station can do from 1 to 6 pieces of work. \n
+Of course, if station #1 processes 5 pieces of work on day one, \n
+station #2 can only process, at maximum, 5, \n
+because it only has 5 pieces available to 'pull.' \n
+Experiment with different values to see how the factory operates.\n\n"
 
 print "How many days? "
 STDOUT.flush
